@@ -7,10 +7,13 @@ header {
 	background-color: white;
 	position: sticky;
 	top: 0;
+	z-index: 15000;
+	box-shadow: 0 0 3px 3px #26134F;
 }
+
 header div {
 	text-align: center;
-	padding: 20px;
+	padding: 15px;
 } 
 header div img {
 	height: 70px;
@@ -50,58 +53,6 @@ header nav {
 	text-decoration: none;
 }
 
-/* medias queries de encabezado de todas las páginas*/
-/* vista mobile*/
-@media only screen and (min-width:360px) and (max-width:767px){
-	.header--text {
-	font-size: 15px;
-}
-header div img {
-	height: 20px;
-}
-.nav__item--text {
-	font-family: arial, 
-	sans-serif; 
-	font-size: 8px;
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-}
-.nav__item--link:hover {
-	font-family: Comic Sans,
-	cursive;
-	font-size: 8px;
-	color: #5a1d91;
-	font-weight: bold;
-	text-decoration: none;
-}
-}
-/* vista tablet*/
-@media only screen and (min-width:768px) and (max-width:1023px){
-	.header--text {
-	font-size: 20px;
-}
-header div img {
-	height: 50px;
-}
-.nav__item--text {
-	font-family: arial, 
-	sans-serif; 
-	font-size: 15px;
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-}
-.nav__item--link:hover {
-	font-family: Comic Sans,
-	cursive;
-	font-size: 15px;
-	color: #5a1d91;
-	font-weight: bold;
-	text-decoration: none;
-}
-}
-/* fin medias queries */
 
 /* estilo utilizado en todas las páginas */
 main {
@@ -139,7 +90,10 @@ main h2 {
 .table__image--height {
 	height: 300px;
 }
-
+.div--margenes {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 /* medias queries de página INDEX*/
 /* vista mobile*/
 @media only screen and (min-width:360px) and (max-width:767px){
@@ -210,25 +164,18 @@ iframe {
 
 
 /* estilo utilizado en la página GRUPOS*/
-.tablaGrupos {
-	border: 2px solid #2A1559;
-	background-color: white;
-}
-.tablaGrupos th {
-	background-color: #A681F5;
-	border: 2px solid #2A1559;
-}
-.tablaGrupos td {
-	border: 2px solid #2A1559;
-	padding: 20px;
-}
-.imagenGrupo {
-	height: 400px;
-}
-.tablaGrupos--texto {
+.grupos--titulos {
 	font-family: arial, 
 	sans-serif; 
-	font-size: 15px;
+	font-size: 25px;
+	color: #1E0D42;
+	font-weight: bold;
+	text-align: center;
+}
+.grupos-texto {
+	font-family: arial, 
+	sans-serif; 
+	font-size: 20px;
 	color: #1E0D42;
 	font-weight: bold;
 	text-align: center;
@@ -379,8 +326,13 @@ footer {
 	box-shadow: 4px 4px 10px #26134F;
 	padding: 4px;
 }
-
+.form--margenes {
+	margin-bottom: 2px;
+}
 /* estilo del footer para todas las páginas*/
+.footer--sombra {
+	box-shadow: 0 0 3px 3px #26134F;
+}
 .footer__imagen--height {
 	height: 120px;
 }

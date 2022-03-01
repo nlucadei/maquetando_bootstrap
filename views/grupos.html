@@ -5,149 +5,223 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Grupos</title>
 	<link rel="shortcut icon" href="../assets/img/favicon.png">
+	<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-	<header>
-			<div class="header--text">
-				<img src="../assets/img/logo_bts.jpg">
-				<img src="../assets/img/logo_txt.png">
-				<img src="../assets/img/logo_kard.png">
-				KPOP-STORE
-				<img src="../assets/img/logo_got.png">
-				<img src="../assets/img/logo_twice.jpg">
-				<img src="../assets/img/logo_straykids.png">
+	<header class="container-fluid">
+		<div class="row header--background text-center div--margenes">
+				<div class="col-lg-12 col-12 header--text text-center div--margenes">
+					<img src="../assets/img/header.png" class="rounded img-fluid" alt="banner">
+				</div>
+				<nav class="row">
+					<div class="col-lg-12 col-12 div--margenes">
+						<nav class="navbar navbar-expand-sm navbar-light">
+							<a class="navbar-brand nav__item--text" href="../index.html">HOME</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+							    <span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+							    <ul class="navbar-nav">
+							     	<li class="nav-item">
+							        	<a class="nav-link nav__item--text" href="productos.html">PRODUCTOS</a>
+							      	</li>
+							      	<li class="nav-item active">
+							        	<a class="nav-link nav__item--text" href="grupos.html">GRUPOS <span class="sr-only">(current)</span></a>
+							      	</li>
+							      	<li class="nav-item">
+							        	<a class="nav-link nav__item--text" href="noticias.html">NOTICIAS KPOP</a>
+							      	</li>
+							      	<li class="nav-item">
+							        	<a class="nav-link nav__item--text" href="contacto.html">CONTACTO</a>
+							      	</li>
+							    </ul>
+							</div>
+						</nav>
+					</div>
+				</nav>
+		</div>
+	</header>
+	<div class="container-fluid">
+		<main class="row align-items-center">
+			<div class="col-lg-4 col-12">
+				<img src="../assets/img/bts.png" alt="BTS" class="img-fluid">
 			</div>
-			<nav>
-				<ul class="header__nav header__nav--background">
-					<li class="nav__item"><a class="nav__item--text nav__item--link" href="../index.html">Home</a></li>
-					<li class="nav__item"><a class="nav__item--text nav__item--link" href="productos.html">Productos</a></li>
-					<li class="nav__item"><a class="nav__item--text nav__item--link" href="grupos.html">Grupos</a></li>
-					<li class="nav__item"><a class="nav__item--text nav__item--link" href="noticias.html">Noticias KPop</a></li>
-					<li class="nav__item"><a class="nav__item--text nav__item--link" href="contacto.html">Contacto</a></li>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">BTS</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Integrantes:</h3>
+				<ul class="grupos-texto">
+					<li>Kim Namjoon</li>
+					<li>Kim Seokjin</li>
+					<li>Min Yoongi</li>
+					<li>Jun Hoseok</li>
+					<li>Park Jimin</li>
+					<li>Kim Taehyung</li>
+					<li>Jeon Jungkook</li>
 				</ul>
-				<hr>
-			</nav>
-		</header>
-	<main>
-		<h2><span class="main__titulos--texto">GRUPOS</span></h2>
-		<table class="tablaGrupos">
-			<tr class="tablaGrupos--texto">
-				<th>IMAGEN</th>
-				<th>NOMBRE GRUPO</th>
-				<th>INTEGRANTES</th>
-				<th>FECHA DEBUT</th>
-				<th>NOMBRE FANDOM</th>
-			</tr>
-			<tr class="tablaGrupos--texto">
-				<td><img src="../assets/img/bts.png" alt="BTS" class="imagenGrupo"></td>
-				<td>BTS</td>
-				<td>
-					<ul>
-						<li>Kim Namjoon</li>
-						<li>Kim Seokjin</li>
-						<li>Min Yoongi</li>
-						<li>Jun Hoseok</li>
-						<li>Park Jimin</li>
-						<li>Kim Taehyung</li>
-						<li>Jeon Jungkook</li>
-					</ul>
-				</td>
-				<td>11 de Junio de 2013</td>
-				<td>Army</td>
-			</tr>
-			<tr class="tablaGrupos--texto">
-				<td><img src="../assets/img/got.png" alt="GOT7" class="imagenGrupo"></td>
-				<td>GOT7</td>
-				<td>
-					<ul>
-						<li>Mark Tuan</li>
-						<li>Lim Jaebeom</li>
-						<li>Jackson Wang</li>
-						<li>Park Jinyoung</li>
-						<li>Choi Youngjae</li>
-						<li>BamBam</li>
-						<li>Kim Yugyeom</li>
-					</ul>
-				</td>
-				<td>16 de Enero de 2014</td>
-				<td>Ahgase</td>
-			</tr>
-			<tr class="tablaGrupos--texto">
-				<td><img src="../assets/img/twice.png" alt="TWICE" class="imagenGrupo"></td>
-				<td>TWICE</td>
-				<td>
-					<ul>
-						<li>Nayeon</li>
-						<li>Jeongyeon</li>
-						<li>Momo</li>
-						<li>Sana</li>
-						<li>Jihyo</li>
-						<li>Mina</li>
-						<li>Dahyun</li>
-						<li>Chaeyoung</li>
-						<li>Tzuyu</li>
-					</ul>
-				</td>
-				<td>20 de Octubre de 2015</td>
-				<td>Once</td>
-			</tr>
-			<tr class="tablaGrupos--texto">
-				<td><img src="../assets/img/kard.png" alt="KARD" class="imagenGrupo"></td>
-				<td>KARD</td>
-				<td>
-					<ul>
-						<li>Kim BM</li>
-						<li>Kim Taehyung</li>
-						<li>Jeon Somin</li>
-						<li>Jeon Jiwoo</li>
-					</ul>
-				</td>
-				<td>19 de Julio de 2017</td>
-				<td>Hidden Kard</td>
-			</tr>
-			<tr class="tablaGrupos--texto">
-				<td><img src="../assets/img/skz.png" alt="SKZ" class="imagenGrupo"></td>
-				<td>STRAY KIDS</td>
-				<td>
-					<ul>
-						<li>Bang Chan</li>
-						<li>Lee Know</li>
-						<li>Changbin</li>
-						<li>Hyunjin</li>
-						<li>Han</li>
-						<li>Felix</li>
-						<li>Seungmin</li>
-						<li>I.N.</li>
-					</ul>
-				</td>
-				<td>25 de Marzo de 2018</td>
-				<td>STAY</td>
-			</tr>
-			<tr class="tablaGrupos--texto">
-				<td><img src="../assets/img/txt.png" alt="TXT" class="imagenGrupo"></td>
-				<td>TXT</td>
-				<td>
-					<ul>
-						<li>Choi Yeojun</li>
-						<li>Choi Soobin</li>
-						<li>Choi Beomgyu</li>
-						<li>Kang Taehyun</li>
-						<li>Huening Kai</li>
-					</ul>
-				</td>
-				<td>04 de Marzo de 2019</td>
-				<td>MOA</td>
-			</tr>
-		</table>
-	</main>
-	<footer>
-			<hr>
-			<div class="footer--align footer--text">
-				<img class="footer__imagen--height" src="../assets/img/heart.jpg"> 
-				REDES SOCIALES - UBICACIÓN - PROMOCIONES BANCARIAS
-				<img class="footer__imagen--height" src="../assets/img/heart.jpg">	
-			</div>	
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Fecha de Debut:</h3>
+				<h3 class="grupos-texto">11 de Junio de 2013</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Nombre de Fandom:</h3>
+				<h3 class="grupos-texto">Army</h3>
+			</div>
+			<div class="col-lg-4 col-12">
+				<img src="../assets/img/got.png" alt="GOT7" class="img-fluid">
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">GOT7</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Integrantes:</h3>
+				<ul class="grupos-texto">
+					<li>Mark Tuan</li>
+					<li>Lim Jaebeom</li>
+					<li>Jackson Wang</li>
+					<li>Park Jinyoung</li>
+					<li>Choi Youngjae</li>
+					<li>BamBam</li>
+					<li>Kim Yugyeom</li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Fecha de Debut:</h3>
+				<h3 class="grupos-texto">16 de Enero de 2014</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Nombre de Fandom:</h3>
+				<h3 class="grupos-texto">Ahgase</h3>
+			</div>
+			<div class="col-lg-4 col-12">
+				<img src="../assets/img/twice.png" alt="TWICE" class="img-fluid">
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">TWICE</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Integrantes:</h3>
+				<ul class="grupos-texto">
+					<li>Nayeon</li>
+					<li>Jeongyeon</li>
+					<li>Momo</li>
+					<li>Sana</li>
+					<li>Jihyo</li>
+					<li>Mina</li>
+					<li>Dahyun</li>
+					<li>Chaeyoung</li>
+					<li>Tzuyu</li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Fecha de Debut:</h3>
+				<h3 class="grupos-texto">20 de Octubre de 2015</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Nombre de Fandom:</h3>
+				<h3 class="grupos-texto">Once</h3>
+			</div>
+			<div class="col-lg-4 col-12">
+				<img src="../assets/img/kard.png" alt="KARD" class="img-fluid">
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">KARD</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Integrantes:</h3>
+				<ul class="grupos-texto">
+					<li>Kim BM</li>
+					<li>Kim Taehyung</li>
+					<li>Jeon Somin</li>
+					<li>Jeon Jiwoo</li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Fecha de Debut:</h3>
+				<h3 class="grupos-texto">19 de Julio de 2017</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Nombre de Fandom:</h3>
+				<h3 class="grupos-texto">Hidden Kard</h3>
+			</div>
+			<div class="col-lg-4 col-12">
+				<img src="../assets/img/skz.png" alt="SKZ" class="img-fluid">
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">STRAY KIDS</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Integrantes:</h3>
+				<ul class="grupos-texto">
+					<li>Bang Chan</li>
+					<li>Lee Know</li>
+					<li>Changbin</li>
+					<li>Hyunjin</li>
+					<li>Han</li>
+					<li>Felix</li>
+					<li>Seungmin</li>						
+					<li>I.N.</li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Fecha de Debut:</h3>
+				<h3 class="grupos-texto">25 de Marzo de 2018</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Nombre de Fandom:</h3>
+				<h3 class="grupos-texto">STAY</h3>
+			</div>
+			<div class="col-lg-4 col-12">
+				<img src="../assets/img/txt.png" alt="TXT" class="img-fluid">
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">TXT</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Integrantes:</h3>
+				<ul class="grupos-texto">
+					<li>Choi Yeojun</li>
+					<li>Choi Soobin</li>
+					<li>Choi Beomgyu</li>
+					<li>Kang Taehyun</li>
+					<li>Huening Kai</li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Fecha de Debut:</h3>
+				<h3 class="grupos-texto">04 de Marzo de 2019</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="grupos--titulos">Nombre de Fandom:</h3>
+				<h3 class="grupos-texto">MOA</h3>
+			</div>
+		</main>
+	</div>
+	<div class="container-fluid">
+		<footer class="row align-items-center text-center footer--sombra">
+			<div class="col-lg-2 col-12">
+				<img class="footer__imagen--height" src="../assets/img/heart.png">
+			</div>
+			<div class="col-lg-3 col-12">
+				<h3 class="footer--text">REDES SOCIALES</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<h3 class="footer--text">UBICACIÓN</h3>
+			</div>
+			<div class="col-lg-3 col-12">
+				<h3 class="footer--text">PROMOCIONES BANCARIAS</h3>
+			</div>
+			<div class="col-lg-2 col-12">
+				<img class="footer__imagen--height" src="../assets/img/heart.png">
+			</div>
 		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
